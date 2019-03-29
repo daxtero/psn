@@ -1,0 +1,20 @@
+{
+  "scripts": {
+    "start": "electron ."
+  },
+  "name": "PSN",
+  "description": "",
+  "version": "0.1.0",
+  "main": "./src/main.js",
+  "repository": "",
+  "keywords": [
+    "PlayStation",
+    "PlayStation Store",
+    "PSN"
+  ],
+  "license": "MIT",
+  "author": "André Meyerjürgens <ameyerjuergens@gmail.de>",
+  "dependencies": {
+    "electron": "^4.0.6"
+  }
+}

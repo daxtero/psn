@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PSN</title>
+</head>
+<body>
+
+<input type="text" id="search" value="final fantasy" autofocus="autofocus"/>
+<div id="result"></div>
+
+<script type="application/javascript" src="renderer.js"></script>
+<script type="application/javascript">
+    document.querySelector("#search").onkeypress = function (eve) {
+        if (eve.keyCode == '13') {
+            eve.srcElement.blur();
+            window.queryPsn(this.value);
+        }
+    }
+</script>
+</body>
+</html>
